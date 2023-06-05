@@ -8,6 +8,12 @@ p {
     font-family: Aller;
 }
 
+h2 {
+    background: linear-gradient(300deg, lightblue, #00bfff, #2779a7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
 
 /*background color for the page */
 
@@ -29,10 +35,39 @@ body {
     color: #2779a7;
 }
 
+.card,
+.education>li {
+    display: inline-block;
+    padding: 20px 75px;
+    margin: 20px 25px;
+    text-align: justify;
+}
+
+.card>h3 {
+    background-color: #ff9398;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Career>p {
+    margin: 10px;
+}
+
+.skills>.h3 {
+    display: inline-block;
+    padding: 0px 75px;
+    margin: 20px 0px;
+    text-align: justify;
+}
+
 
 /*Heading */
 
 h1 {
+    z-index: 0;
     font-size: 75px;
     font-weight: lighter;
     display: flex;
@@ -41,10 +76,19 @@ h1 {
     padding-top: 0px;
     padding-right: 150px;
     height: 700px;
-    background-color: #2779a7;
+    background: linear-gradient(300deg, lightblue, #00bfff, #2779a7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    opacity: 0.7;
+    /* background-color: #2779a7;
     /* HEX #2779a7 - Deep Sky Blue */
     color: #ffffff;
     /* White */
+}
+
+.name {
+    background-image: url(../images/blurred-neon-lights-background.jpg);
+    z-index: 1;
 }
 
 h2 {
